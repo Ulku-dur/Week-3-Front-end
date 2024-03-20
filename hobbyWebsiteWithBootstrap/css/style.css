@@ -1,0 +1,59 @@
+.picSlider {
+  height: 600px;
+}
+.bg-custom {
+  background-color: rgb(255, 153, 204);
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+}
+.about {
+  background-color: #f2f2f2;
+}
+.aboutHead {
+  color: rgb(255, 153, 204);
+}
+.aboutText {
+  color: #494949;
+}
+.index {
+  border: none;
+  border-top: 3px solid rgb(255, 153, 204);
+  max-width: 250px;
+  margin: 25px auto;
+}
+
+.ileaf {
+  color: rgb(255, 153, 204);
+  position: relative; /*akışı bozmadan yukarıdan aşağıdan konumlanabilme özelliği*/
+  top: -53px;
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.ileaf2 {
+  color: rgb(255, 153, 204);
+  position: relative; /*akışı bozmadan yukarıdan aşağıdan konumlanabilme özelliği*/
+  top: -53px;
+  font-size: 40px;
+  border: 10px solid #fff;
+  background-color: #fff;
+}
+.teamCard > img:hover {
+  opacity: 0.8;
+}
+
+.gallery {
+  background-color: #f2f2f2;
+}
+.btn {
+  background-color: rgb(255, 153, 204);
+  color: white;
+  
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(255, 153, 204);
+}
